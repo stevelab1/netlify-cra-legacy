@@ -2,21 +2,23 @@
 
 ## Description
 
-A boilerplate for CI/CD with [Create React App](https://github.com/facebook/create-react-app), Github Actions and Netlify, including testing. 
+A boilerplate for CI/CD with [Create React App (CRA)](https://github.com/facebook/create-react-app), Github Actions and Netlify using legacy versions of CRA. Useful if your project includes legacy dependencies.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+- `git push` to initiate build, test, deploy
+- modify `push.yml` to add `branches` or `jobs`
+
+### For local development:
+
+run `npm i` with `--legacy-peer-deps`
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) 
 
 ### `npm test`
 
-Launches the test runner 
+Launches tests. 
 
