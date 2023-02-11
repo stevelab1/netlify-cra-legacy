@@ -2,7 +2,7 @@
 
 ## Description
 
-A project setup for CI/CD with [Create React App (CRA)](https://github.com/facebook/create-react-app), Github Actions and Netlify using legacy versions of React. Useful if your project includes legacy dependencies.
+A project-setup for CI/CD with [Create React App (CRA)](https://github.com/facebook/create-react-app), Github Actions and Netlify using legacy versions of React. Useful if your project includes legacy dependencies.
 
 ## Usage
 
